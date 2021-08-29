@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="ctn">
+        <header>
+            <a href="index.html">Home</a>
+            <span>  Danh sách sản phẩm của bạn</span>
+        </header>
+        <section>
+            <article>
+              
+                <div class="showT">
+                    <table >
+                        <tr id="tr-top">
+                            <th>STT</th>
+                            <th>Hình</th>
+                            <th>Tên</th>
+                            <th>Đơn Giá</th>
+                            <th>Số Lượng</th>
+                            <th>Thành Tiền</th>
+                        </tr>
+                        <tbody id="mycartT">
+                         
+                        </tbody>
+                        
+                       
+                        
+                    </table>
+                </div>
+            </article>
+            <aside>
+                <div class="user">
+                    <span>Thông tin khách hàng</span>
+                </div>
+                <div class="infor">
+                    <div class="f-g">
+                        <label for="n">Họ và Tên</label> <br>
+                        <input type="text" name="n" id="">
+                    </div>
+                    <div class="f-g">
+                        <label for="l">Địa Chỉ</label><br>
+                        <input type="text" name="l" id="">
+                    </div>
+                    <div class="f-g">
+                        <label for="p">Điện Thoại</label><br>
+                        <input type="text" name="p" id="">
+                    </div>
+                    <div class="f-g">
+                        <label for="e">Email</label><br>
+                        <input type="email" name="e" id="">
+                    </div>
+                     <button  onclick="pay();">Đặt Hàng</button>
+                </div>
+            </aside>
+        </section>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+<script src="js/cart.js"></script>
+</html>

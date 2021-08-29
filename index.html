@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="ctn">
+        <header>
+            <span>Add Product</span>
+        </header>
+        <section>
+            <article>
+                <div class="prd">
+                    <div class="img">
+                        <img src="img/1.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        <span>Bóng đèn</span>
+                    </div>
+                    <div class="price-num">
+                        <div class="price">
+                            <span>10</span>$
+                        </div>
+                        <div class="num">
+                            <input type="number" name="num" id="" min="1" max="100" value="1">
+                        </div>
+                    </div>
+                    <button onclick="add(this)">Add</button>
+                </div>
+
+                <div class="prd">
+                    <div class="img">
+                        <img src="img/2.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        <span>Túi bông</span>
+                    </div>
+                    <div class="price-num">
+                        <div class="price">
+                            <span>2</span>$
+                        </div>
+                        <div class="num">
+                            <input type="number" name="num" id="" min="1" max="100" value="1">
+                        </div>
+                    </div>
+                    <button onclick="add(this)">Add</button>
+                </div>
+
+                <div class="prd">
+                    <div class="img">
+                        <img src="img/3.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        <span>Thảm trải</span>
+                    </div>
+                    <div class="price-num">
+                        <div class="price">
+                            <span>13</span>$
+                        </div>
+                        <div class="num">
+                            <input type="number" name="num" id="" min="1" max="100" value="1">
+                        </div>
+                    </div>
+                    <button onclick="add(this)">Add</button>
+                </div>
+
+                <div class="prd">
+                    <div class="img">
+                        <img src="img/4.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        <span>Sô Pha</span>
+                    </div>
+                    <div class="price-num">
+                        <div class="price">
+                            <span>103</span>$
+                        </div>
+                        <div class="num">
+                            <input type="number" name="num" id="" min="1" max="100" value="1">
+                        </div>
+                    </div>
+                    <button onclick="add(this)">Add</button>
+                </div>
+
+                <div class="prd">
+                    <div class="img">
+                        <img src="img/5.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        <span>Hộp tiện dụng</span>
+                    </div>
+                    <div class="price-num">
+                        <div class="price">
+                            <span>8</span>$
+                        </div>
+                        <div class="num">
+                            <input type="number" name="num" id="" min="1" max="100" value="1">
+                        </div>
+                    </div>
+                    <button onclick="add(this)">Add</button>
+                </div>
+            </article>
+            <aside>
+                <div class="cart">
+                    <a onclick="showCart()"><i class="fas fa-shopping-cart"></i> <span id="count">0</span> </a>
+                </div>
+                <div class="show">
+                    <table >
+                        <tr id="tr-top">
+                            <th>STT</th>
+                            <th>Hình</th>
+                            <th>Tên</th>
+                            <th>Đơn Giá</th>
+                            <th>Số Lượng</th>
+                            <th>Thành Tiền</th>
+                            <th id="xoa">Xóa</th>
+                        </tr>
+                        <tbody id="mycart">
+                                   
+                        </tbody>
+                        
+                       
+                        
+                    </table>
+                 
+                        <div class="come-cart">
+                            <a href="cart.html">Thanh Toán</a>
+                        </div>
+               
+                  
+
+                </div>
+            </aside>
+        </section>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+<script src="js/main.js"></script>
+
+</html>

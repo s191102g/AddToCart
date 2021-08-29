@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(203, 230, 253, 0.8);
+}
+.ctn{
+    margin: 0 auto;
+    width: 90%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 246, 246);
+}
+header{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(153, 190, 122);
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(24, 24, 22);
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+}
+header a{
+    position:absolute;
+    left: 10px;
+}
+/* end header */
+section{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    padding: 20px;
+}
+
+article{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   padding: 10px 5px; 
+   
+}
+.infor-user{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.infor-user span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.showT{
+    background-color: rgb(249, 255, 254);    
+   display: flex;
+   flex-direction: column;
+   
+}
+th{
+    height: 30px;
+}
+th img{
+    height: 60px;
+    width: 60px;
+}
+
+#tr-top{
+    background-color: rgb(148, 238, 178);
+}
+
+#tr-bt{
+    background-color:rgb(170, 9, 9);
+    text-align: center;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+/* showcart */
+
+
+
+/* end section */
